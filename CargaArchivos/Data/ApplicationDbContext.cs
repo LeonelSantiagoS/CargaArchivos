@@ -17,7 +17,6 @@ namespace CargaArchivos.Data
         {
 
         }
-        public DbSet<FileOnDatabaseModel> FilesOnDatabase { get; set; }
-        public DbSet<FileOnFileSystemModel> FilesOnFileSystem { get; set; }
+      
     }
 }

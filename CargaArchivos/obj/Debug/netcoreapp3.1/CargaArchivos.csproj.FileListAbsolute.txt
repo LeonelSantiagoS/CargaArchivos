@@ -322,7 +322,6 @@ C:\Users\PCLALO\Desktop\VS .NET CORE MVC\proyectos\CargaArchivos2\CargaArchivos\
 C:\Users\PCLALO\Desktop\VS .NET CORE MVC\proyectos\CargaArchivos2\CargaArchivos\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\PCLALO\Desktop\VS .NET CORE MVC\proyectos\CargaArchivos2\CargaArchivos\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 C:\Users\PCLALO\Desktop\VS .NET CORE MVC\proyectos\CargaArchivos2\CargaArchivos\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
-C:\Users\PCLALO\Desktop\VS .NET CORE MVC\proyectos\CargaArchivos2\CargaArchivos\obj\Debug\netcoreapp3.1\Razor\Views\File\Index.cshtml.g.cs
 C:\Users\PCLALO\Desktop\VS .NET CORE MVC\proyectos\CargaArchivos2\CargaArchivos\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\PCLALO\Desktop\VS .NET CORE MVC\proyectos\CargaArchivos2\CargaArchivos\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\PCLALO\Desktop\VS .NET CORE MVC\proyectos\CargaArchivos2\CargaArchivos\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
@@ -338,3 +337,4 @@ C:\Users\PCLALO\Desktop\VS .NET CORE MVC\proyectos\CargaArchivos2\CargaArchivos\
 C:\Users\PCLALO\Desktop\VS .NET CORE MVC\proyectos\CargaArchivos2\CargaArchivos\obj\Debug\netcoreapp3.1\CargaArchivos.dll
 C:\Users\PCLALO\Desktop\VS .NET CORE MVC\proyectos\CargaArchivos2\CargaArchivos\obj\Debug\netcoreapp3.1\CargaArchivos.pdb
 C:\Users\PCLALO\Desktop\VS .NET CORE MVC\proyectos\CargaArchivos2\CargaArchivos\obj\Debug\netcoreapp3.1\CargaArchivos.genruntimeconfig.cache
+C:\Users\PCLALO\Desktop\VS .NET CORE MVC\proyectos\CargaArchivos2\CargaArchivos\obj\Debug\netcoreapp3.1\Razor\Views\Explorer\Index.cshtml.g.cs
