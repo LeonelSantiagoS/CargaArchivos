@@ -463,11 +463,11 @@
           "lib/netstandard2.0/_._": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Design/3.1.25": {
+      "Microsoft.EntityFrameworkCore.Design/3.1.27": {
         "type": "package",
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
-          "Microsoft.EntityFrameworkCore.Relational": "3.1.25"
+          "Microsoft.EntityFrameworkCore.Relational": "3.1.27"
         },
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -504,10 +504,10 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Tools/3.1.25": {
+      "Microsoft.EntityFrameworkCore.Tools/3.1.27": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Design": "3.1.25"
+          "Microsoft.EntityFrameworkCore.Design": "3.1.27"
         },
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -3335,10 +3335,10 @@
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Design/3.1.25": {
-      "sha512": "Bpo1i2Dj4eE57eLMnmT8sPe2EEwF2wCSeFhdsssaNXF3Cx6/7XuPZLlmvsDikyC+gO9m9YwEB4VZIh/2noBZbg==",
+    "Microsoft.EntityFrameworkCore.Design/3.1.27": {
+      "sha512": "NS3yY67kiB5P+ofQ91A2GaCkUBOKFLQ6dTQ8Vbk4VWlVue5TyAJqh6dON6mYzMOypXbgiOVCDbg8Ut0bXlpEMA==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.design/3.1.25",
+      "path": "microsoft.entityframeworkcore.design/3.1.27",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3347,7 +3347,7 @@
         "build/netcoreapp2.0/Microsoft.EntityFrameworkCore.Design.props",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.xml",
-        "microsoft.entityframeworkcore.design.3.1.25.nupkg.sha512",
+        "microsoft.entityframeworkcore.design.3.1.27.nupkg.sha512",
         "microsoft.entityframeworkcore.design.nuspec"
       ]
     },
@@ -3379,17 +3379,17 @@
         "microsoft.entityframeworkcore.sqlserver.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Tools/3.1.25": {
-      "sha512": "GlynMdJPCfLTTZA24gaPeaDOJm/FGQA9TovXQ1xdzUorP6GYtAymGbfMTGLsdQX8PMwT13LnaH/O6EfV6UA0Xw==",
+    "Microsoft.EntityFrameworkCore.Tools/3.1.27": {
+      "sha512": "+bA8qZNj5EngRc2QCU7RXgF0DBOLvGW5MUwy93OQeeVazRcY4q0CoDIXBGhrr6rCTjaoLEMwuBiQZtV825d3nQ==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.tools/3.1.25",
+      "path": "microsoft.entityframeworkcore.tools/3.1.27",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/netstandard2.0/_._",
-        "microsoft.entityframeworkcore.tools.3.1.25.nupkg.sha512",
+        "microsoft.entityframeworkcore.tools.3.1.27.nupkg.sha512",
         "microsoft.entityframeworkcore.tools.nuspec",
         "tools/EntityFrameworkCore.PS2.psd1",
         "tools/EntityFrameworkCore.PS2.psm1",
@@ -8837,24 +8837,24 @@
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 3.1.25",
       "Microsoft.AspNetCore.Identity.UI >= 3.1.25",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.25",
-      "Microsoft.EntityFrameworkCore.Tools >= 3.1.25",
+      "Microsoft.EntityFrameworkCore.Tools >= 3.1.27",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.5"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\LEO\\.nuget\\packages\\": {}
+    "C:\\Users\\PCLALO\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Proyecto ASPNet Core\\CargaArchivos\\CargaArchivos\\CargaArchivos.csproj",
+      "projectUniqueName": "C:\\Users\\PCLALO\\Desktop\\VS .NET CORE MVC\\proyectos\\CargaArchivos2\\CargaArchivos\\CargaArchivos.csproj",
       "projectName": "CargaArchivos",
-      "projectPath": "C:\\Proyecto ASPNet Core\\CargaArchivos\\CargaArchivos\\CargaArchivos.csproj",
-      "packagesPath": "C:\\Users\\LEO\\.nuget\\packages\\",
-      "outputPath": "C:\\Proyecto ASPNet Core\\CargaArchivos\\CargaArchivos\\obj\\",
+      "projectPath": "C:\\Users\\PCLALO\\Desktop\\VS .NET CORE MVC\\proyectos\\CargaArchivos2\\CargaArchivos\\CargaArchivos.csproj",
+      "packagesPath": "C:\\Users\\PCLALO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\PCLALO\\Desktop\\VS .NET CORE MVC\\proyectos\\CargaArchivos2\\CargaArchivos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\LEO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\PCLALO\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8900,7 +8900,7 @@
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
             "target": "Package",
-            "version": "[3.1.25, )"
+            "version": "[3.1.27, )"
           },
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
@@ -8925,7 +8925,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

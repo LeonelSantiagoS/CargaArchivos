@@ -6,38 +6,38 @@
 
 <h1>Gestor de Archivos</h1>
 
-<h4>Start Uploading Files Here</h4>
-<hr />
+@*<h4>Start Uploading Files Here</h4>*@
+
 @if (ViewBag.Message != null)
 {
     <div class="alert alert-success alert-dismissible" style="margin-top:20px">
         @ViewBag.Message
     </div>
 }
-<form method="post" enctype="multipart/form-data">
+@*<form method="post" enctype="multipart/form-data">
     <input type="file" name="files" multiple required />
-    <input type="text" autocomplete="off" placeholder="Enter File Description" name="description" required />
-    <button type="submit" class="btn btn-primary" asp-controller="File" asp-action="UploadToFileSystem">Upload to File System</button>
+    <input type="text" autocomplete="off" placeholder="Descripción" name="description" required />
+    <button type="submit" class="btn btn-primary" asp-controller="File" asp-action="UploadToFileSystem">Subir un archivo</button>
     <button class="btn btn-success" type="submit" asp-controller="File" asp-action="UploadToDatabase">Upload to Database</button>
-</form>
-<hr />
-<h4>Files on File System</h4>
+</form>*@
+
+<h4>Archivos del Sistema</h4>
 @if (Model.FilesOnFileSystem.Count == 0)
 {
-    <caption>No Records Found</caption>
+    <caption>No se han encontrado registros</caption>
 }
 else
 {
-    <caption>List of Files on File System</caption>
+    <caption>Lista de archivos en el sistema</caption>
     <table class="table table-striped">
         <thead>
             <tr>
                 <th>#</th>
-                <th>Name</th>
-                <th>Description</th>
-                <th>File Type</th>
-                <th>Created On</th>
-                <th>Actions</th>
+                <th>Nombre</th>
+                <th>Descripción</th>
+                <th>Tipo de archivo</th>
+                <th>Fecha de creación</th>
+                <th>Acciones</th>
             </tr>
         </thead>
         <tbody>
@@ -50,8 +50,8 @@ else
                     <td>@file.FileType</td>
                     <td>@file.CreatedOn</td>
                     <td>
-                        <a type="button" class="btn btn-primary" asp-controller="File" asp-action="DownloadFileFromFileSystem" asp-route-id="@file.Id">Download</a>
-                        <a type="button" class="btn btn-danger" asp-controller="File" asp-action="DeleteFileFromFileSystem" asp-route-id="@file.Id">Delete</a>
+                        <a type="button" class="btn btn-primary" asp-controller="File" asp-action="DownloadFileFromFileSystem" asp-route-id="@file.Id">Descargar</a>
+                        @*<a type="button" class="btn btn-danger" asp-controller="File" asp-action="DeleteFileFromFileSystem" asp-route-id="@file.Id">Delete</a>*@
                     </td>
                 </tr>
             }
@@ -60,7 +60,7 @@ else
 }
 
 
-<hr />
+@*<hr />
 <h4>Files on Database</h4>
 @if (Model.FilesOnDatabase.Count == 0)
 {
@@ -100,3 +100,4 @@ else
     </table>
 }
 
+*@
