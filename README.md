@@ -43,8 +43,8 @@ Hora Actual = 18:30:00
 La nueva hora de ejecucion seria a las 18:31:00.
 
 -- El sistema cuenta con 3 timer, empleandose de la siguiente manera:
-    -> tmrHora : Se utiliza para recuperar la hora del sistema, y activar el evento clic del boton btnIniciar, en caso de que la hora actual sea igual a las 18:00:00, puede haber una excepcion como se menciono en el funcionamiento anterior.
-    -> tmrTemporizador : Se inicializa un temporizador de 59 minutos 59 segundos, cuando llega a 0 activa el evento clic del boton btnIniciar, para hacer las peticiones. Solo se activa cuando no se completan las peticiones del dia.
-    -> tmrDescargaPaquetes : Se inicializa un temporizador de 30 minutos, cuando llega a 0 activa el evento clic del boton btnDescarga, para la descarga de las peticiones, en caso de no ser exitoso, se reprograma a otros 30 minutos, hasta que se descarguen todas las peticiones del dia.
+    -- tmrHora : Se utiliza para recuperar la hora del sistema, y activar el evento clic del boton btnIniciar, en caso de que la hora actual sea igual a las 18:00:00, puede haber una excepcion como se menciono en el funcionamiento anterior.
+    -- tmrTemporizador : Se inicializa un temporizador de 59 minutos 59 segundos, cuando llega a 0 activa el evento clic del boton btnIniciar, para hacer las peticiones. Solo se activa cuando no se completan las peticiones del dia.
+    -- tmrDescargaPaquetes : Se inicializa un temporizador de 30 minutos, cuando llega a 0 activa el evento clic del boton btnDescarga, para la descarga de las peticiones, en caso de no ser exitoso, se reprograma a otros 30 minutos, hasta que se descarguen todas las peticiones del dia.
 
 ### - Autor<a name="id2"></a>
